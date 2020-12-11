@@ -18,8 +18,9 @@ db.collection('todos').onSnapshot((snapshot) => {
 			//add the document data to the web page
 			renderTodo(change.doc.data(), change.doc.id);
 		}
-		if (change.type === 'remove') {
+		if (change.type === 'removed') {
 			//remove the document data from the web page
+			removeTodo(change.doc.id);
 		}
 	});
 });
@@ -40,4 +41,13 @@ form.addEventListener('submit', (evt) => {
 
 	form.title.value = '';
 	form.details.value = '';
+});
+
+//delete todo
+const todoContainer = document.querySelector('.todos');
+todoContainer.addEventListener('click', (evt) => {
+	if (evt.target.tagName === 'I') {
+		const id = evt.target.getAttribute('data-id');
+		db.collection('todos').doc(id).delete();
+	}
 });
