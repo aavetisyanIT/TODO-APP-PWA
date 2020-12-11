@@ -23,3 +23,21 @@ db.collection('todos').onSnapshot((snapshot) => {
 		}
 	});
 });
+
+// add new todo
+const form = document.querySelector('form');
+form.addEventListener('submit', (evt) => {
+	evt.preventDefault();
+	const todo = {
+		title: form.title.value,
+		details: form.details.value,
+	};
+
+	db.collection('todos')
+		.doc()
+		.set(todo)
+		.catch((err) => console.log(err));
+
+	form.title.value = '';
+	form.details.value = '';
+});
