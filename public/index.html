@@ -1,3 +1,5 @@
+//test git repo //test test test test///another test form VSCode
+
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
@@ -13,9 +15,8 @@
 		<script type="text/javascript" src="/js/materialize.min.js"></script>
 		<link rel="manifest" href="/manifest.json" />
 		<!-- ios support  -->
-		<link rel="apple-touch-icon" href="/img/icons/apple-icon.png" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="apple-mobile-web-app-status-bar-style" content="#FFE1C4" />
+		<link rel="apple-touch-icon" href="/img/icons/icon192.png" />
+		<meta name="apple-mobile-web-app-status-bar" content="#aa7700" />
 		<meta name="theme-color" content="#FFE1C4" />
 	</head>
 	<body class="grey lighten-4">
@@ -80,6 +81,35 @@
 				</div>
 				<div class="input-field center">
 					<button class="btn-small">Add</button>
+				</div>
+			</form>
+		</div>
+
+		<!-- edit todo side nav -->
+		<div id="edit-form" class="sidenav edit-form">
+			<form class="edit-todo container section">
+				<h6>Edit Todo</h6>
+				<div class="divider"></div>
+				<div class="input-field">
+					<input
+						placeholder="current todo"
+						id="editTitle"
+						type="text"
+						class="edit-validate"
+					/>
+					<label for="editTitle">Todo Title</label>
+				</div>
+				<div class="input-field">
+					<input
+						placeholder="currect task details"
+						id="editDetails"
+						type="text"
+						class="edit-validate"
+					/>
+					<label for="editDetails">Task details</label>
+				</div>
+				<div class="input-field center">
+					<button class="btn-small">Edit</button>
 				</div>
 			</form>
 		</div>
