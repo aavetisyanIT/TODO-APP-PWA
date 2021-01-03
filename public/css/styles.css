@@ -53,9 +53,10 @@ body {
 	position: absolute;
 	bottom: 0px;
 	right: 0px;
+	cursor: pointer;
 }
 .todo-delete i {
-	font-size: 18px;
+	font-size: 24px;
 }
 .todo-edit {
 	width: 20px;
@@ -64,10 +65,11 @@ body {
 	position: absolute;
 	bottom: -2px;
 	right: 50px;
+	cursor: pointer;
 }
 .todo-edit i {
 	width: 20px;
-	font-size: 18px;
+	font-size: 24px;
 }
 .todo-title {
 	font-weight: bold;
