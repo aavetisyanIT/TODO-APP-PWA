@@ -20,6 +20,12 @@ nav a span {
 nav .sidenav-trigger {
 	margin: 0;
 }
+body {
+	/* background by SVGBackgrounds.com */
+	background-color: #ffffff;
+	background-image: url('bg.svg');
+	overflow: scroll;
+}
 
 /* todo styles */
 .todos {
