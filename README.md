@@ -1,35 +1,4 @@
-# TODO-APP-PWA
+# Todo Manager
 
-This is todo app
-
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-### Prerequisites
-
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
-
-## Built With
-
--  [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
--  [Maven](https://maven.apache.org/) - Dependency Management
--  [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Authors
-
--  **Artur Avetisyan** - _Initial work_ - [PurpleBooth](https://github.com/PurpleBooth)
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
--  Hat tip to anyone whose code was used
--  Inspiration
--  etc
+Todo lists don't need to be complicated — plenty of people use a pen and paper for the job without any problem.
+Todo Manager is a simple cross-platform app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
