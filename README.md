@@ -3,6 +3,9 @@
 Todo lists don't need to be complicated — plenty of people use a pen and paper for the job without any problem.
 Todo Manager is a simple cross-platform app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
+This is a PWA application made with HTML, CSS, Javascript can be accessed via a web address and installed on the mobile home-screen.
+It runs in the browser but with access to device features and can be used offline.
+
 ## Getting familiar
 
 ### Open webpage on your phone browser
@@ -18,7 +21,7 @@ Todo Manager is a simple cross-platform app that allows building a todo list and
 
 ![](https://github.com/aavetisyanIT/TODO-APP-PWA/blob/main/public/img/screenshots/screen.PNG)
 
-### Native app expirience
+### Very app like expirience
 
 ![](https://github.com/aavetisyanIT/TODO-APP-PWA/blob/main/public/img/screenshots/appHome.PNG)
 
@@ -47,10 +50,11 @@ Todo Manager is a simple cross-platform app that allows building a todo list and
 -  HTML
 -  CSS
 -  JavaScript
+-  Firebase as a database
 
 ## Authors
 
--  **Artur Avetisyan** - _Initial work_ - [Code source](https://github.com/aavetisyanIT/Color-Palette)
+-  **Artur Avetisyan** - _Initial work_ - [Code source](https://github.com/aavetisyanIT/TODO-APP-PWA)
 
 ## Acknowledgments
 
