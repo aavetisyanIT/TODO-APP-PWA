@@ -6,7 +6,7 @@ Todo Manager is a simple cross-platform app that allows building a todo list and
 This is a PWA application made with HTML, CSS, JavaScript can be accessed via a web address and installed on the mobile home-screen.
 It runs in the browser but with access to device features and can be used offline.
 
-## To install:
+## To install on your phone or open in the browser:
 
 [Click here](https://todo-manager-11338.web.app/)
 
